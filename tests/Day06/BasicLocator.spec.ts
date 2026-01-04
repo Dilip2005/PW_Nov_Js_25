@@ -4,7 +4,7 @@ test("Locator using with Css",async({page})=>{
 
 await page.goto("http://leaftaps.com/opentaps/control/main")
 
-await page.locator("#username").fill("DemoSalesManager")
+await page.locator("[name='USERNAME]").fill("DemoSalesManager")
   //change the locator value for username
 
 await page.locator("[name='PASSWORD']").fill("crmsfa")
