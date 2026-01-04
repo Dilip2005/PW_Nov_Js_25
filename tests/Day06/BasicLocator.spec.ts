@@ -15,7 +15,7 @@ await page.waitForTimeout(4000)
 
 //get the title
 let title =await page.title()
-console.log(title)
+console.log(title+" : Leaftaps title")
 
 await page.locator("text='CRM/SF'").click()
 
